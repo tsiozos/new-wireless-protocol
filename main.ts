@@ -32,7 +32,7 @@ input.onButtonPressed(Button.A, function on_button_pressed_a() {
             totretries += 1
             radio.sendBuffer(dat)
             // print("Sent buffer with ID:"+str(dat[0])+serial.NEW_LINE)
-            basic.pause(00)
+            basic.pause(100)
         }
         console.log("OK buffer " + ("" + gotID) + "  retries:" + ("" + tries) + serial.NEW_LINE)
     }
